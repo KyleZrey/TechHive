@@ -1,6 +1,6 @@
 <%-- 
-    Document   : login.jsp
-    Created on : 04 23, 23, 5:20:31 PM
+    Document   : cart
+    Created on : 04 28, 23, 7:16:40 AM
     Author     : Benjo
 --%>
 
@@ -36,48 +36,69 @@
             </div>
         </div>
         
-        <!------------ login page ----------->
-        <div class="account-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="styles/featuredPics/landingBG.png" width="100%">
-                    </div>
-                    
-                    <div class="col-2">
-                        <div class="form-container">
-                            <div class="form-btn">
-                                <span onclick="login()">Login</span>
-                                <span onclick="signup()">Sign Up</span>
-                                <hr id="Indicator">
+        <!------------ cart page ----------->
+        <div class="small-container cart page">
+            
+            <a href="javascript:history.back()" class="btn" background-color="#00ff00">&#8592; Back</a>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="styles/products/product1.png" height="120px" width="120px">
+                            <div>
+                                <p>[Product Name]</p>
+                                <small>Price: $999.99</small>
+                                <br>
+                                <a href="">Remove</a>
                             </div>
-                            
-                            <form id="LoginForm">
-                                <h5>Email</h5>
-                                <input type="text" placeholder="Email">
-                                <h5>Password</h5>
-                                <input type="password" placeholer="Password">
-                                <button type="submit" class="btn">Login</button>
-                                <h6 onclick="signup()">Don't have an account yet?</h6>
-                            </form>
-                            
-                            <form id="SignupForm">
-                                <h5>Username</h5>
-                                <input type="text" placeholder="Username">
-                                <h5>Email</h5>
-                                <input type="text" placeholder="Email">
-                                <h5>Password</h5>
-                                <input type="password" placeholer="Password">
-                                <h5>Confirm Password</h5>
-                                <input type="password" placeholer="Confirm Password">
-                                <button type="submit" class="btn">Register</button>
-                            </form>
-                            
                         </div>
-                    </div>
-                </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$999.99</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="styles/products/product2.png" height="120px" width="120px">
+                            <div>
+                                <p>[Product Name]</p>
+                                <small>Price: $50.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+            </table>
+            
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$1049.99</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$07.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$1056.99</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="checkout-container">
+                <a href="" class="btn checkout-btn" background-color="#00ff00">Checkout &#8594;</a>
             </div>
         </div>
+        
         <!------------ footer ------------>
         <div class="footer">
             <div class="container">

@@ -16,6 +16,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     </head>
     <body>
         <div class="container">
@@ -30,8 +31,7 @@
                         <li><a href="login.jsp">Account</a></li>
                     </ul>
                 </nav>
-
-                <img src="styles/appLogos/cartLogo.png" width="30px" height="30px">
+                <a href="cart.jsp"><i class='bx bx-shopping-bag' width="30px" height="30px"></i></a>
                 <img src="styles/appLogos/menuBut.png"  width="30px" class="menu-icon" onclick="menutoggle()">
             </div>
         </div>
