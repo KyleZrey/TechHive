@@ -16,6 +16,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     </head>
     <body>
         <div class="header">        
@@ -31,8 +32,7 @@
                             <li><a href="login.jsp">Account</a></li>
                         </ul>
                     </nav>
-                    
-                    <img src="styles/appLogos/cartLogo.png" width="30px" height="30px">
+                    <a href="cart.jsp"><i class='bx bx-shopping-bag' width="30px" height="30px"></i></a>
                     <img src="styles/appLogos/menuBut.png"  width="30px" class="menu-icon" onclick="menutoggle()">
                 </div>
                 
@@ -127,15 +127,24 @@
                     </div>
                     <div class="col-2">
                         <p>Exclusively Available on Tech Hive</p>
-                        <h1>Sad Catto</h1>
+                        <h1>Grumpy Cat</h1>
                         <small>
-                            The displeased cat. The displeased cat. The 
-                            displeased cat. Displeased. The displeased cat. The 
-                            displeased cat. The displeased cat. Displeased. The 
-                            displeased cat. The displeased cat. The displeased 
-                            cat. Displeased. The displeased cat. The displeased 
-                            cat. The displeased cat. Displeased.</small>
-                        <a href="products.jsp" class="btn">Buy Now &#8594;</a>
+                            Grumpy Cat is here to make your month a little brighter 
+                            with his monthly deals and exclusive offers! Despite 
+                            his grumpy demeanor, he's actually quite eager to offer 
+                            you the best deals around. Each month, he'll scour the 
+                            web for the best discounts and promotions, and bring 
+                            them straight to you. <br><br>
+                            From special offers on products and services to exclusive 
+                            deals on events and experiences, Grumpy Cat has got you 
+                            covered. Whether you're looking to save money on your 
+                            next shopping spree or want to try something new without 
+                            breaking the bank, Grumpy Cat is the feline friend you need.<br><br>
+
+                            So keep an eye out for Grumpy Cat's monthly offers, and 
+                            be sure to take advantage of them while you can. After 
+                            all, with deals this good, even Grumpy Cat might crack a smile.<br></small>
+                        <a href="products.jsp" class="btn">Have a Look! &#8594;</a>
                     </div>
                 </div>
             </div>
