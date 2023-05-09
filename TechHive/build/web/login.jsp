@@ -21,19 +21,18 @@
     <body>
         <div class="container">
             <div class="navbar">
-                <div class="logo">
-                    <img src="styles/appLogos/comLogo.png" width="125px">
+                    <div class="logo">
+                        <img src="styles/appLogos/comLogo.png" width="125" alt="logo">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.jsp">Home</a></li>
+                            <li><a href="products.jsp">Products</a></li>
+                            <li><a href="login.jsp">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.jsp"><i class='bx bx-shopping-bag'></i></a>
                 </div>
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="index.jsp">Home</a></li>
-                        <li><a href="products.jsp">Products</a></li>
-                        <li><a href="login.jsp">Account</a></li>
-                    </ul>
-                </nav>
-                <a href="cart.jsp"><i class='bx bx-shopping-bag' width="30px" height="30px"></i></a>
-                <img src="styles/appLogos/menuBut.png"  width="30px" class="menu-icon" onclick="menutoggle()">
-            </div>
         </div>
         
         <!------------ login page ----------->
@@ -41,7 +40,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2">
-                        <img src="styles/featuredPics/landingBG.png" width="100%">
+                        <img src="styles/featuredPics/landingBG.png" width="1000">
                     </div>
                     
                     <div class="col-2">
@@ -56,7 +55,7 @@
                                 <h5>Email</h5>
                                 <input type="text" placeholder="Email">
                                 <h5>Password</h5>
-                                <input type="password" placeholer="Password">
+                                <input type="password" placeholder="Password">
                                 <button type="submit" class="btn">Login</button>
                                 <h6 onclick="signup()">Don't have an account yet?</h6>
                             </form>
@@ -67,9 +66,9 @@
                                 <h5>Email</h5>
                                 <input type="text" placeholder="Email">
                                 <h5>Password</h5>
-                                <input type="password" placeholer="Password">
+                                <input type="password" placeholder="Password">
                                 <h5>Confirm Password</h5>
-                                <input type="password" placeholer="Confirm Password">
+                                <input type="password" placeholder="Confirm Password">
                                 <button type="submit" class="btn">Register</button>
                             </form>
                             
