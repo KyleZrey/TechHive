@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2">
-                        <img src="styles/featuredPics/landingBG.png" width="100">
+                        <img src="styles/featuredPics/landingBG.png" width="1000">
                     </div>
                     
                     <div class="col-2">
