@@ -22,21 +22,20 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="styles/appLogos/comLogo.png" width="125px">
+                    <img src="styles/appLogos/comLogo.png" width="125">
                 </div>
                 <nav>
                     <ul id="MenuItems">
                         <li><a href="index.jsp">Home</a></li>
                         <li><a href="products.jsp">Products</a></li>
-                        <li><a href="login.jsp"">Account</a></li>
+                        <li><a href="login.jsp">Account</a></li>
                     </ul>
                 </nav>
-
-                <a href="cart.jsp"><i class='bx bx-shopping-bag' width="30px" height="30px"></i></a>
-                <img src="styles/appLogos/menuBut.png"  width="30px" class="menu-icon" onclick="menutoggle()">
+                <a href="cart.jsp"><i class='bx bx-shopping-bag'></i></a>
+                <img src="styles/appLogos/menuBut.png"  width="30" class="menu-icon" onclick="menutoggle()">
             </div>
-                
-                
+
+
             <div class="small-container">
 
                 <div class="row row-2">
@@ -201,17 +200,16 @@
         <script>
             var MenuItems = document.getElementById("MenuItems");
             MenuItems.style.maxHeight = "0px";
-            function menutoggle(){
-                if(MenuItems.style.maxHeight == "0px")
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px")
                 {
                     MenuItems.style.maxHeight = "200px"
-                }
-                else
+                } else
                 {
                     MenuItems.style.maxHeight = "0px"
                 }
             }
         </script>
-        
+
     </body>
 </html>

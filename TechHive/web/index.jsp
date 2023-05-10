@@ -23,23 +23,23 @@
             <div class="container">
                 <div class="navbar">
                     <div class="logo">
-                        <img src="styles/appLogos/comLogo.png" width="125px">
+                        <img src="styles/appLogos/comLogo.png" width="125">
                     </div>
                     <nav>
                         <ul id="MenuItems">
-                            <li><a href="">Home</a></li>
+                            <li><a href="index.jsp">Home</a></li>
                             <li><a href="products.jsp">Products</a></li>
                             <li><a href="login.jsp">Account</a></li>
                         </ul>
                     </nav>
-                    <a href="cart.jsp"><i class='bx bx-shopping-bag' width="30px" height="30px"></i></a>
-                    <img src="styles/appLogos/menuBut.png"  width="30px" class="menu-icon" onclick="menutoggle()">
+                    <a href="cart.jsp"><i class='bx bx-shopping-bag'></i></a>
+                    <img src="styles/appLogos/menuBut.png"  width="30" class="menu-icon" onclick="menutoggle()">
                 </div>
-                
+
                 <div class="row">
                     <div class="col-2">
                         <h1>Your go-to destination <br>for all things tech!</h1>
-                            <p>We are thrilled to offer you an extensive selection of 
+                        <p>We are thrilled to offer you an extensive selection of 
                             pre-built units, laptops, consoles, and other electronic 
                             devices that are sure to meet your needs.</p>
                         <a href="products.jsp" class="btn">Shop Now &#8594;</a>
@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!------------ display ------------>
         <div class="promos">
             <div class="small-container">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!------------ featured ------------>
         <div class="small-container">
             <h2 class="title">Featured Promos</h2>
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!------------ offer ------------>
         <div class="offer">
             <div class="small-container">
@@ -149,7 +149,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!------------ testimonials ------------>
         <div class="testimonial">
             <div class="small-container">
@@ -208,7 +208,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!------------ footer ------------>
         <div class="footer">
             <div class="container">
@@ -250,22 +250,21 @@
                 <p class="copyright">Copyright 2023 - Tech Hive - Group 11 - 2CSC</p>
             </div>
         </div>
-        
+
         <!------------ script for toggle menu ------------>
         <script>
             var MenuItems = document.getElementById("MenuItems");
             MenuItems.style.maxHeight = "0px";
-            function menutoggle(){
-                if(MenuItems.style.maxHeight === "0px")
+            function menutoggle() {
+                if (MenuItems.style.maxHeight === "0px")
                 {
                     MenuItems.style.maxHeight = "200px";
-                }
-                else
+                } else
                 {
                     MenuItems.style.maxHeight = "0px";
                 }
             }
         </script>
-        
+
     </body>
 </html>

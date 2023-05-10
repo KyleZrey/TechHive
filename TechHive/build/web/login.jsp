@@ -21,20 +21,21 @@
     <body>
         <div class="container">
             <div class="navbar">
-                    <div class="logo">
-                        <img src="styles/appLogos/comLogo.png" width="125" alt="logo">
-                    </div>
-                    <nav>
-                        <ul id="MenuItems">
-                            <li><a href="index.jsp">Home</a></li>
-                            <li><a href="products.jsp">Products</a></li>
-                            <li><a href="login.jsp">Account</a></li>
-                        </ul>
-                    </nav>
-                    <a href="cart.jsp"><i class='bx bx-shopping-bag'></i></a>
+                <div class="logo">
+                    <img src="styles/appLogos/comLogo.png" width="125">
                 </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="products.jsp">Products</a></li>
+                        <li><a href="login.jsp">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.jsp"><i class='bx bx-shopping-bag'></i></a>
+                <img src="styles/appLogos/menuBut.png"  width="30" class="menu-icon" onclick="menutoggle()">
+            </div>
         </div>
-        
+
         <!------------ login page ----------->
         <div class="account-page">
             <div class="container">
@@ -42,7 +43,7 @@
                     <div class="col-2">
                         <img src="styles/featuredPics/landingBG.png" width="1000">
                     </div>
-                    
+
                     <div class="col-2">
                         <div class="form-container">
                             <div class="form-btn">
@@ -50,7 +51,7 @@
                                 <span onclick="signup()">Sign Up</span>
                                 <hr id="Indicator">
                             </div>
-                            
+
                             <form id="LoginForm">
                                 <h5>Email</h5>
                                 <input type="text" placeholder="Email">
@@ -59,7 +60,7 @@
                                 <button type="submit" class="btn">Login</button>
                                 <h6 onclick="signup()">Don't have an account yet?</h6>
                             </form>
-                            
+
                             <form id="SignupForm">
                                 <h5>Username</h5>
                                 <input type="text" placeholder="Username">
@@ -71,7 +72,7 @@
                                 <input type="password" placeholder="Confirm Password">
                                 <button type="submit" class="btn">Register</button>
                             </form>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -119,41 +120,40 @@
             </div>
         </div>
 
-        
+
         <!------------ script for toggle menu ------------>
         <script>
             var MenuItems = document.getElementById("MenuItems");
             MenuItems.style.maxHeight = "0px";
-            function menutoggle(){
-                if(MenuItems.style.maxHeight === "0px")
+            function menutoggle() {
+                if (MenuItems.style.maxHeight === "0px")
                 {
                     MenuItems.style.maxHeight = "200px";
-                }
-                else
+                } else
                 {
                     MenuItems.style.maxHeight = "0px";
                 }
             }
         </script>
-        
+
         <!------------ script for signup ------------>
         <script>
             var LoginForm = document.getElementById("LoginForm");
             var SignupForm = document.getElementById("SignupForm");
             var Indicator = document.getElementById("Indicator");
-            
-            function signup(){
+
+            function signup() {
                 SignupForm.style.transform = "translateX(0px)";
                 LoginForm.style.transform = "translateX(0px)";
                 Indicator.style.transform = "translateX(100px)";
             }
-            function login(){
+            function login() {
                 SignupForm.style.transform = "translateX(300px)";
                 LoginForm.style.transform = "translateX(300px)";
                 Indicator.style.transform = "translateX(0px)";
             }
-            
+
         </script>
-        
+
     </body>
 </html>
