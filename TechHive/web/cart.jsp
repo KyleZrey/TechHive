@@ -22,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="styles/appLogos/comLogo.png" width="125px">
+                    <img src="styles/appLogos/comLogo.png" width="125">
                 </div>
                 <nav>
                     <ul id="MenuItems">
@@ -31,15 +31,15 @@
                         <li><a href="login.jsp">Account</a></li>
                     </ul>
                 </nav>
-                <a href="cart.jsp"><i class='bx bx-shopping-bag' width="30px" height="30px"></i></a>
-                <img src="styles/appLogos/menuBut.png"  width="30px" class="menu-icon" onclick="menutoggle()">
+                <a href="cart.jsp"><i class='bx bx-shopping-bag'></i></a>
+                <img src="styles/appLogos/menuBut.png"  width="30" class="menu-icon" onclick="menutoggle()">
             </div>
         </div>
         
         <!------------ cart page ----------->
         <div class="small-container cart page">
             
-            <a href="javascript:history.back()" class="btn" background-color="#00ff00">&#8592; Back</a>
+            <a href="javascript:history.back()" class="btn">&#8592; Back</a>
             <table>
                 <tr>
                     <th>Product</th>
@@ -49,7 +49,7 @@
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="styles/products/product1.png" height="120px" width="120px">
+                            <img src="styles/products/product1.png" height="120" width="120">
                             <div>
                                 <p>[Product Name]</p>
                                 <small>Price: $999.99</small>
@@ -64,7 +64,7 @@
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="styles/products/product2.png" height="120px" width="120px">
+                            <img src="styles/products/product2.png" height="120" width="120">
                             <div>
                                 <p>[Product Name]</p>
                                 <small>Price: $50.00</small>
@@ -95,7 +95,7 @@
                 </table>
             </div>
             <div class="checkout-container">
-                <a href="" class="btn checkout-btn" background-color="#00ff00">Checkout &#8594;</a>
+                <a href="" class="btn checkout-btn">Checkout &#8594;</a>
             </div>
         </div>
         

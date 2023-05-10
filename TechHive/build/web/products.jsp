@@ -22,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="styles/appLogos/comLogo.png" width="125" alt="logo">
+                    <img src="styles/appLogos/comLogo.png" width="125">
                 </div>
                 <nav>
                     <ul id="MenuItems">
@@ -32,128 +32,128 @@
                     </ul>
                 </nav>
                 <a href="cart.jsp"><i class='bx bx-shopping-bag'></i></a>
+                <img src="styles/appLogos/menuBut.png"  width="30" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+
+            <div class="small-container">
+
+                <div class="row row-2">
+                    <h2>All Products</h2>
+                    <select>
+                        <option>Lowest Price</option>
+                        <option>Highest Price</option>
+                        <option>Relevance</option>
+                        <option>Shipping Speed</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="styles/products/product1.png">
+                        <h4>Alienware Aurora Ryzen™ Edition R14 Gaming Desktop</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p><strike>$2,449.99</strike> $2,150.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="styles/products/product2.png">
+                        <h4>Precision 5470 Workstation</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$2,199.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="styles/products/product3.png">
+                        <h4>Next Level Racing GT Track Cockpit</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$899.99</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="styles/products/product4.png">
+                        <h4>Alienware m15 R7 Gaming Laptop</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>$999.99</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="styles/products/product1.png">
+                        <h4>Alienware Aurora Ryzen™ Edition R14 Gaming Desktop</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p><strike>$2,449.99</strike> $2,150.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="styles/products/product2.png">
+                        <h4>Precision 5470 Workstation</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$2,199.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="styles/products/product3.png">
+                        <h4>Next Level Racing GT Track Cockpit</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$899.99</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="styles/products/product4.png">
+                        <h4>Alienware m15 R7 Gaming Laptop</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>$999.99</p>
+                    </div>
+                </div>   
+                <div class="page-btn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
+                </div>
             </div>
         </div>
-
-
-        <div class="small-container">
-
-            <div class="row row-2">
-                <h2>All Products</h2>
-                <select>
-                    <option>Lowest Price</option>
-                    <option>Highest Price</option>
-                    <option>Relevance</option>
-                    <option>Shipping Speed</option>
-                </select>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <img src="styles/products/product1.png">
-                    <h4>Alienware Aurora Ryzen™ Edition R14 Gaming Desktop</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p><strike>$2,449.99</strike> $2,150.00</p>
-                </div>
-                <div class="col-4">
-                    <img src="styles/products/product2.png">
-                    <h4>Precision 5470 Workstation</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                    <p>$2,199.00</p>
-                </div>
-                <div class="col-4">
-                    <img src="styles/products/product3.png">
-                    <h4>Next Level Racing GT Track Cockpit</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p>$899.99</p>
-                </div>
-                <div class="col-4">
-                    <img src="styles/products/product4.png">
-                    <h4>Alienware m15 R7 Gaming Laptop</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <p>$999.99</p>
-                </div>
-                <div class="col-4">
-                    <img src="styles/products/product1.png">
-                    <h4>Alienware Aurora Ryzen™ Edition R14 Gaming Desktop</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p><strike>$2,449.99</strike> $2,150.00</p>
-                </div>
-                <div class="col-4">
-                    <img src="styles/products/product2.png">
-                    <h4>Precision 5470 Workstation</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                    <p>$2,199.00</p>
-                </div>
-                <div class="col-4">
-                    <img src="styles/products/product3.png">
-                    <h4>Next Level Racing GT Track Cockpit</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p>$899.99</p>
-                </div>
-                <div class="col-4">
-                    <img src="styles/products/product4.png">
-                    <h4>Alienware m15 R7 Gaming Laptop</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <p>$999.99</p>
-                </div>
-            </div>   
-            <div class="page-btn">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>4</span>
-                <span>&#8594;</span>
-            </div>
-        </div>
-
         <!------------ footer ------------>
         <div class="footer">
             <div class="container">
